@@ -15,8 +15,8 @@ status=$?
 
 if test $status -ne 0
 then
-	echo "Installing Python 3.6..."
-	apt-get install python3.6 -y
+	echo "Installing Python 3.15..."
+	apt-get install python3.15 -y
 
 else
 	echo "Confirmed Python is installed."
@@ -46,7 +46,7 @@ fi
 
 # Install Python packages
 echo "Installing Python packages..."
-python3 -m pip install CMake==3.18.4
+python3 -m pip install CMake==4.2.3
 python3 -m pip install -r requirements.txt
 
 # Build Docker images
