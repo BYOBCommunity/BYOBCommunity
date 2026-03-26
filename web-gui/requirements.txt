@@ -12,11 +12,11 @@ flask_mail
 wtforms
 mss==10.1.0
 WMI==1.5.1
-numpy==2.4.3
+numpy==1.22.0
 pyxhook==1.0.0
 twilio==9.10.3
 colorama==0.4.6
-requests==2.32.5
+requests==2.33.0
 pycryptodomex==3.23.0
 py-cryptonight>=1.0.0
 opencv-python;python_version>'3'
